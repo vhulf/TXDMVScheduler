@@ -56,7 +56,9 @@ while True:
         break
 
     headers = {"Host": "publicapi.txdpsscheduler.com", "Origin": "https://www.tx.com", "Cache-Control": "no-cache, no-store"}
-    # TODO typeId for other types of appointments??
+    
+    # TODO add arg to set typeId for other types of appointments!
+    # # TODO TODO THIS 71  \/  IS WHAT YOU MUST REPLACE TO SCHEDULE OTHER APPOINTMENT TYPES MUST PROXY WHILE SUBMITTING APPOINTMENT FORM TO FIND (form itself not easily decipherable)
     searchData = {"TypeId":71,"ZipCode":args.zip,"CityName":"","PreferredDay":0}
     
     okay = True
